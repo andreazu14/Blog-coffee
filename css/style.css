@@ -1,9 +1,7 @@
-header {
-    background-image: url(./../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center center ;
-    /* background-size: cover; */
-    min-height: 70vh;
-}
+@import './normalize.css';
+@import './banner.css';
 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
