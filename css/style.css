@@ -3,6 +3,7 @@
 @import './curso.css';
 @import './mainHome.css';
 @import './layoutsHome.css';
+@import './nosotrosItem.css';
 
 html{
     font-size: 62.5%;
