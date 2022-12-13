@@ -8,19 +8,24 @@ body{
 }
 
 .image {
-    max-width: 100%;
+    max-width: 500px;
     width: 50em;
+    padding: 50px;
+}
+.img4 {
+    max-width: 500px;
+    width: 50em;
+    padding: 50px;
 }
 
 .button :hover{
     border-radius: 10%;
     height: 30px;
+    padding: 50px;
     
 }
 
-.img4 {
-    max-width: 100%;
-}
+
 
 
 
