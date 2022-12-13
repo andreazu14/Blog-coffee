@@ -356,6 +356,9 @@ ul{
   list-style: none;
   padding-left: 0;
 }
+img{
+  max-width: 100%;
+}
 
 *::selection{
   background-color: #50352a;
