@@ -1,0 +1,32 @@
+.mainHomeItems{
+  padding: 0 4rem;
+}
+.mainHomeItems h2{
+  font-size: 3.5rem;
+}
+.mainHomeItems article{
+  border-bottom: solid 2px #e2e2e2;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+
+}
+.mainHomeItems img{
+  width: 100%;
+  max-height: 50rem;
+  object-fit: cover;
+}
+
+.mainHomeItem__title{
+  margin: 3rem 0;
+  text-transform: capitalize;
+}
+.mainHomeItem__paragraf{
+  line-height: 1.5;
+}
+.mainHomeItems .button{
+  background-color: black;
+  color: white;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border: none;
+}
