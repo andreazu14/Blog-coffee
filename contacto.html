@@ -30,20 +30,26 @@
     <!-- End BannerMain -->
     <section id="contacto">
       <h3 class="titulo-seccion">Contactanos</h3>
-      <div class="contenedor-form">
-          <form action="">
-              <div class="fila mitad">
-                  <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                  <input type="email" placeholder="Email" class="input-mitad">
-              </div>
-              <div class="fila">
-              <div class="fila">
-                  <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
-              </div>
 
-              <input type="submit" value="Enviar Mensaje" class="btn-enviar">
-          </form>
-      </div>
-  </section>
+      <form class="contacto__form" action="">
+        <div class="row">
+          <input
+            type="text"
+            placeholder="Nombre Completo"
+            class="input-mitad"
+          />
+          <input type="email" placeholder="Email" class="input-mitad" />
+        </div>
+
+        <textarea
+          cols="5"
+          rows="5"
+          placeholder="Tu Mensaje..."
+          class="input-full"
+        ></textarea>
+
+        <button class="btn-enviar">Enviar Mensaje</button>
+      </form>
+    </section>
   </body>
 </html>
