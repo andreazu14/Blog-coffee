@@ -1,19 +1,18 @@
 .banner_main{
-  background-image: url(https://as2.ftcdn.net/v2/jpg/01/35/34/59/1000_F_135345906_DBaCFikNHgOMH7owi8wcuRXN0phu2xs6.jpg);
+  background-image: url(https://images.pexels.com/photos/6205605/pexels-photo-6205605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  min-height: 450px;
+  background-position: top center;
+  min-height: 100vh;
   height: 53vh;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 }
 
 .banner_main::before{
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(301deg, rgba(0,0,0,0) 0%, #000000 90%, #000000 100%);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #00000e98 100%);
 }
 
 .banner_main header{
@@ -22,6 +21,10 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: var(--primario);
 }
 
 .banner_main nav ul{
@@ -29,13 +32,13 @@
   gap: 20px;
 }
 .banner_main nav ul a{
-  color: #f5f5f5;
+  color: var(--secundario);
   font-size: 19px;
 }
 
 .banner_logo{
   margin: 20px 0;
-  color: #f5f5f5;
+  color: var(--secundario);
   font-size: 50px;
   font-weight: 100;
 }
@@ -45,11 +48,15 @@
 }
 
 .banner_title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   text-align: center;
   margin: 0  auto;
-  margin-top: 5%;
   position: relative;
-  color: #f5f5f5;
+  color: var(--secundario);
   padding: 0 20px;
 }
 
@@ -57,9 +64,11 @@
   font-weight: 100;
   max-width: 700px;
   margin: 0  auto;
- font-size: 40px;
+ font-size: 6rem;
+ font-weight: bold;
 }
 
 .banner_title p{
-  font-size: 18px;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #000000;
 }

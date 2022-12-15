@@ -2,31 +2,40 @@
   padding: 0 4rem;
 }
 .mainHomeItems h2{
-  font-size: 3.5rem;
+  font-size: 3.8rem;
+  color: var(--primario);
+
 }
 .mainHomeItems article{
-  border-bottom: solid 2px #e2e2e2;
+  background-color: var(--secundario);
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-
+  box-shadow: 4px 4px 4px 0 #30303096, -4px -4px 3px 0 rgba(255, 255, 255, 0.712);
+  padding: 3rem;
+  padding-bottom: 5rem;
+  border-radius: 1rem;
 }
 .mainHomeItems img{
   width: 100%;
-  max-height: 50rem;
+  border-radius: 1rem;
+  max-height: 35rem;
   object-fit: cover;
 }
 
 .mainHomeItem__title{
   margin: 3rem 0;
+  font-size: 3rem;
+  color: var(--primario);
   text-transform: capitalize;
 }
 .mainHomeItem__paragraf{
   line-height: 1.5;
 }
 .mainHomeItems .button{
-  background-color: black;
+  background-color: var(--primario);
   color: white;
   padding: 1.5rem 3rem;
   font-size: 2rem;
   border: none;
+  border-radius: 1rem;
 }

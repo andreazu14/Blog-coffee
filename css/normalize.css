@@ -361,6 +361,6 @@ img{
 }
 
 *::selection{
-  background-color: #50352a;
-  color: #f5f5f5;
+  background-color: var(--primario);
+  color: var(--secundario);
 }
