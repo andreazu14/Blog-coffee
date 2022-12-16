@@ -1,0 +1,37 @@
+.centrar_texto {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.img_curso1, .img_curso2, .img_curso3{
+width: 20em;
+padding: 100px
+
+}
+
+.title_4, .card2, .card3{
+    display: flex;
+    padding: 50px;
+    font-size: 2em;
+    
+}
+
+.parrafo_1, .parrafo, .texto {
+    padding: 50px;
+    display: block;
+    /* margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; */
+    
+}
+.cupo1, .cupo2, .cupo3 {
+    display: flex;
+    padding: 50px;
+    
+}
+
+
