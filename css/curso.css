@@ -1,82 +1,18 @@
-/* 
-
-.centrar_texto {
+.container__cursos {
     display: flex;
     justify-content: center;
-    padding: 5px;
-    font-size: 2em;
-}
-
-.img_curso1, .img_curso2, .img_curso3{
-width: 20em;
-padding: 100px
-
-}
-
-.title_4, .card2, .card3{
-    display: flex;
-    padding: 50px;
-    font-size: 2em;
-    
-}
-
-.parrafo_1, .parrafo, .texto {
-    padding: 50px;
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold; 
-    
-}
-.cupo1, .cupo2, .cupo3 {
-    display: flex;
-    padding: 50px;
-    
-}
-h4 {
-
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-div {
-    display: block;
-} */
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-.container {
-    width: 100%;
-    display: flex;
-    max-width: 1100px;
+    gap: 4rem;
+    flex-wrap: wrap;
+    max-width: 120rem;
+    margin: 4rem auto;
+    padding: 0 4rem;
 }
 
 .card {
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
+    max-width: 36rem;
+    border-radius: .5rem;
+    background: var(--secundario);
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
     transition: all 400ms ease;
 }
 .card:hover {
@@ -84,34 +20,37 @@ body {
     transform: translateY(-3%);
 }
 
+.card figure{
+    margin: 0;
+}
 .card img {
     width: 100%;
     height: 210px;
-    
+    object-fit: cover;
 }
 
 .card .contenido {
     padding: 15px;
     text-align: center;
 }
+.card .contenido h3{
+    font-size: 2.5rem;
+    color: var(--primario);
+}
 
 .card .contenido p{
-    line-height: 1.5; 
-    
-}
-.card .contenido h3 {
-    font-weight: 400;
-    margin-bottom: 15px;
-
+    line-height: 1.5;
 }
 
 .card .contenido a {
     text-decoration: none;
+    padding: 1rem 2rem;
     display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
+    margin: 1.5rem auto;
     color:  var(--primario);
-    border: 1px solid var(--primario)
+    border-radius: .5rem;
+    border: 1px solid var(--primario);
+    font-size: 1.8rem;
 }
 
 .card .contenido a:hover {

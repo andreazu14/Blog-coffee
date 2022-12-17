@@ -1,0 +1,38 @@
+.mainCurs{
+ padding: 0 4rem;
+}
+.mainCurs h2{
+  font-size: 3rem;
+  color: var(--primario);
+}
+.mainCurs article{
+  max-width: 40rem;
+  margin-bottom: 3rem;
+}
+.mainCurs article h3{
+  color: #333;
+  font-size: 1.9rem;
+}
+.mainCurs article div{
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.mainCurs article div p{
+  margin-top: 0;
+  font-size: 2rem;
+  color: #333;
+}
+.mainCurs article div p span{
+ color: var(--primario);
+ margin-right: .5rem;
+ font-size: 2.3rem;
+ font-weight: 100;
+}
+.mainCurs .button-primario {
+  border-radius: .5rem;
+  color: var(--secundario);
+  background-color: var(--primario);
+  padding: 1rem 2rem;
+  border: none;
+}
