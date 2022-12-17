@@ -3,6 +3,7 @@
 @import './banner.css';
 @import './curso.css';
 @import './mainHome.css';
+@import './mainCurs.css';
 @import './layoutsHome.css';
 @import './nosotrosItem.css';
 @import './formContac.css' ;
@@ -19,6 +20,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+p{
+    color: #333;
 }
 
 /* width */
