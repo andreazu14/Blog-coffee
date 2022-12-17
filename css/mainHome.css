@@ -1,3 +1,7 @@
+h2 {
+  color: var(--primario);
+}
+
 .mainHomeItems{
   padding: 0 4rem;
 }
@@ -38,4 +42,14 @@
   font-size: 2rem;
   border: none;
   border-radius: 1rem;
+}
+.button-primario {
+  width: 8em;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--primario);
+}
+
+.button-primario:hover{
+  cursor: pointer;
 }
