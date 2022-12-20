@@ -53,6 +53,13 @@
     transform-origin: left bottom;
     transform: scale(1.02);
 }
+
+
+input:invalid,
+textarea:invalid,
+.error{
+    outline: solid .5rem #a82700 !important;
+}
 .p-form {
     display: flex;
     justify-content: center;
@@ -62,7 +69,6 @@
 .p-principal {
     display: flex;
     justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
 }
